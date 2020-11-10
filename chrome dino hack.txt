@@ -1,0 +1,14 @@
+Hack Chrome Dino Game in 2 commands:
+
+=>open chrome://dino
+ 
+=>open inspect element section
+
+=>go to conlsole tab and run these 2 commands:
+
+	>var original = Runner.prototype.gameOver
+	>Runner.prototype.gameOver = function (){}
+	
+If you think to stop that then run this command
+
+	>Runner.prototype.gameOver = original           
